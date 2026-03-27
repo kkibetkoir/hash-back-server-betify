@@ -141,7 +141,7 @@ app.post("/api/check-payment-status", (req, res) => {
 app.post("/api/initiate-payment", async (req, res) => {
   const { amount, phone, reference, userId } = req.body;
 
-  const HASHPAY_API_KEY = "h2642646g1o0w";
+  const HASHPAY_API_KEY = "h265272vstks7";
   const HASHPAY_ACCOUNT_ID = "HW3262722341";
   const HASHPAY_INITIATE_URL = "https://api.hashback.co.ke/initiatestk";
 
